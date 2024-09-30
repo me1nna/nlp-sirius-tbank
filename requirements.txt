@@ -1,0 +1,6 @@
+flask
+torch
+sentence-transformers
+transformers
+datasets
+scikit-learn
