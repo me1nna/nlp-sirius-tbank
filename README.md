@@ -145,10 +145,11 @@ nlp-sirius-tbank/
    ```
 
 4. **Запустите Flask-сервис:**
+   
+   ```bash
+   python app.py
+   ```
 
-     ```bash
-      python app.py
-      ```
 
 Сервис будет доступен по адресу http://localhost:5000
 
