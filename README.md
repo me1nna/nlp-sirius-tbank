@@ -157,16 +157,16 @@ nlp-sirius-tbank/
 
 ### Установка и запуск с использованием Docker
 
-1. **Сборка Docker-образа:**
+1. **Запулить Docker-образ:**
 
    ```bash
-   docker build -t nlp-sirius-tbank .
+   docker pull me1nna/nlp-sirius-tbank
    ```
    
 2. **Запуск Docker-контейнера:**
    
    ```bash
-   docker run -p 5000:5000 nlp-sirius-tbank
+   docker run -p 5000:5000 me1nna/nlp-sirius-tbank
    ```
 
 Сервис будет доступен по адресу http://localhost:5000
